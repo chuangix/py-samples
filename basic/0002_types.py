@@ -33,6 +33,8 @@ def showString():
     print(s[2:])
     print(s * 2)
     print(s + " is nice")
+    print("Python\n is nice")
+    print(r"Python\n is nice")
     return
 
 
