@@ -39,6 +39,27 @@ def showString():
 
 
 def showList():
+    l1 = ["abcd", 786, 2.23, "Python", 70.2]
+    l2 = [123, "Python"]
+    print(l1)
+    print(l1[0])
+    print(l1[1:3])
+    print(l1[2:])
+    print(l2 * 2)
+    print(l1 + l2)
+    l3 = [1, 2, 3, 4, 5, 6]
+    print(l3)
+    print(l3[0:6])
+    print(l3[0:5])
+    print(l3[0:-1])
+    print(l3[0:5:2])
+    print(l3[0:])
+    print(l3[0::2])
+    l3[0] = 9
+    l3[2:5] = [13, 14, 15]
+    print(l3)
+    l3[2:5] = []
+    print(l3)
     return
 
 
