@@ -38,7 +38,7 @@ def showString():
     return
 
 
-def showList():
+def showList():  # TODO Split this function into several sub-functions
     l1 = ["abcd", 786, 2.23, "Python", 70.2]
     l2 = [123, "Python"]
     print(l1)
