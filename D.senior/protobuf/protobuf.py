@@ -1,4 +1,4 @@
-import proto.addressbook_pb2 as addressbook_pb2
+import addressbook_pb2
 
 person = addressbook_pb2.Person()
 person.name = "123"
